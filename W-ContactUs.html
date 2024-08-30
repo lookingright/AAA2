@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" 
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <style>
+
+            .banner {
+                    background-image: url("images/im7.jpg");
+                    /*background-size:cover;
+                    border-style: solid;
+                    border-color: red;
+                    border-width: 3px;
+                    margin: 15px; */
+                    width: 100%;
+                    /*height: 200px; */
+
+            }
+
+            .orange{
+		            background-color: rgb(238, 200, 129);
+		            /* height:60px; */
+		            /* width:50%;
+		            /* border-style: solid; */
+	                /* border-style: dotted solid; */
+	                /*	border-color:rgb(137,169,255); */
+		            /*border-width:5px; */
+                    margin: 10px ;
+                    border-radius: 15px;
+                    text-align: justify;
+                    font-size: 20px;
+                    padding: 15px;
+    
+	        }
+
+            .map{
+
+                /*width:50%;*/
+                margin: 10px ;
+                padding:10px;
+
+            } 
+            
+            .length{
+                    width: 300px;
+
+            }
+
+    </style>   
+
+</head>
+
+<body>
+
+    <header>
+        <!--<div class="banner">-->
+        
+        </div>
+
+    </header>
+        <br>
+
+        <div class="row">
+            <div class="col"></div>
+            <div class="col">
+                <div class="map">
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8780.602534749343!2d114.13837332209165!3d22.285996487651126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403ff80c390c4f9%3A0x9d7a6e7e0644cc33!2z6KW_55Kw56ys5LiA6KGXMzbomZ8!5e0!3m2!1szh-TW!2shk!4v1724167214465!5m2!1szh-TW!2shk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+                </div>
+            </div>
+            <div class="col"></div>
+        </div>
+
+        <div class="row">
+            <div class="col"></div>
+            <div class="col">
+    
+        <div class="orange">
+        <form>
+            <!--style="width: 600px;"-->
+            <fieldset >
+                <h4>We would love to hear from you</h4>
+                <h5>Send us your message through the form below</h5>
+                <br>
+                <label for="name">Name : </label>
+                <br>
+                <input class="length" id="name" name="name" placeholder="e.g. Chan Tai Man" maxlength="30" required>
+                <br>       
+                <label for="phone">Phone no. : </label>
+                <br>
+                <input class="length" type="tel" id="phone" name="phone" maxlength="30" required>
+                <br>
+                <label for="email">Email</label>
+                <br>
+                <input class="length" type="email" id="email" name="email" placeholder="e.g.abc@gmail.com" maxlength="30" required>
+                <br>
+                <br>
+                <label for="sex">Type of Customers : </label>
+                <br>
+                <input type="radio" name="customers" id="customers" value="Household">Household
+                <input type="radio" name="customers" id="customers" value="Wholesalers">Wholesalers
+                <input type="radio" name="customers" id="customers" value="Distributors">Distributors
+                <br>
+                <br>
+                <label for="dropdown">Kind of products you like</label>            
+                <select id="dropdown" name="dropdown">
+                <option>Select one</option>
+                <optgroup label="">
+                    <option value="Fresh Fruit">Fresh Fruit</option>
+                    <option value="Gift Hampers">Gift Hampers</option>
+                    <option value="Fresh Juice">Fresh Juice</option>
+                </optgroup>
+                </select>
+                <br>
+                <br>
+                <label for="textarea">Your Request or comment:</label><br>
+                <textarea id="textarea" rows="3" cols="40" placeholder="Your comment.."></textarea>
+                <br>
+                <input type="submit" id="submit" name="submit" value="submit">
+                
+            </fieldset>
+    
+        </form>
+        </div>
+    </div>
+        <div class="col"></div>
+        </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>    
+</body>
+</html>

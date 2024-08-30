@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-widthco, initial-scale=1.0">
+    <title>Apple</title>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" 
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+<!--
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+-->
+
+<style> 
+
+    .img {
+
+        margin: 20px;
+        /*  margin-bottom: 0px; */
+        /*padding: 10px;*/
+        text-align: center;
+        vertical-align: center;
+        /* width: 80%;*/
+    }
+
+    .box {
+            background: rgb(223, 116, 170);
+            /* float: right; */
+            margin: 5px;
+            text-align: center;
+            width:600px;
+    }
+
+    .rcorners1 {
+			border-radius: 60px;
+			background: rgb(140, 226, 129);
+			/* padding: 20px; */
+			width: 400px;
+			height: 500px;
+			margin: 5px;
+		}
+
+        .rcorners2 {
+			border-radius: 120px;
+			/* background: rgb(140, 226, 129);
+			/* padding: 20px; */
+			width: 350px;
+		    /*height: 400px;
+			/*margin-right: 50px;
+            /*float: right; */
+            
+		}
+
+        .rcor1 {
+			border-radius: 15px;
+			background: lightseagreen;
+			padding: 20px;
+			width: 200px;
+			height: 150px;
+			margin-right: 20px;
+		}
+
+		.rcor2 {
+			border-radius: 20px 50px;
+			background: cyan;
+			padding: 20px;
+			width: 200px;
+			height: 150px;
+		}
+
+        .column {
+			border: red solid 3px;
+			float: left;
+			width: 50%;
+			/* width: 200px; */
+			padding: 15px;
+            margin: 10px;
+		}
+
+		/* Clear floats after the columns */
+		.row::after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+
+
+
+
+
+
+
+
+
+</style>
+
+
+
+
+</head>
+<body>
+    <header>
+        <h1 class="display-3 text-center my-4">Apple</h1>
+        <hr>
+    </header>
+    <img  width="100" src="./Logo/cart.jpg" alt="Logo">
+    <nav class="navbar navbar-expand-sm navbar-light mb-3 navbar-primary bg-info">
+        <div class="container">
+            <ol class="navbar-nav" >
+                <li class="nav-item">
+                    <a class="nav-link"href="./Shopping.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./Orange.html">Orange</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./Papaya.html">Papaya</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./Pear.html"> Pear</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./Page_5.html">Page 5</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./Page_6.html">Page 6</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./Page_7.html">Page 7</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./Page_8.html">Page 8</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./Page_9.html">Page 9</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./Page_10.html">Page 10</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./Page_11.html">Page 11</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./Page_12.html">Page 12</a>
+                </li> 
+                <li class="nav-item">
+                    <a class="nav-link" href="./Contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./Cart.html">Cart</a>
+                </li> 
+            </ol>
+        </div>
+    </nav>
+
+
+
+    <h1>Apple</h1>
+    
+
+
+    <div >
+
+        <p>
+            Apple Store
+        </p>
+
+        <!-- <a href="images/India7a.jpg"></a> -->
+
+        <div>
+            <div class="rcorners1">
+
+                <img class="rcorners2" src="images/im6.jpg" > </style>
+    
+            </div>
+    
+            <div class="box">
+    
+                    <div> <h1> Price</h1></div>
+
+                    <script>
+                        function submitValue() {
+                          // Get the value entered by the user
+                          var input = document.getElementById('value-input');
+                          var value = input.value;
+                          
+                          // Store the value in localStorage
+                          localStorage.setItem('Apple', value);
+                          
+                          // Redirect to the second page
+                          window.location.href = 'Cart.html';
+                        }
+                      </script>
+                    <br>
+                      <h3> Today Special Price: HK$ 10 each</h3>
+
+                    <br>
+                      <h5>Enter number of Apple:</h5>
+                      <input type="text" id="value-input">
+                      <!-- <input type="number" id="value-input"> -->
+                       <br>
+                       <br>
+                      <button onclick="submitValue()">Add to shopping cart</button>
+                      <br>
+                      <br>
+                
+
+                      <p>
+                        FRESH ORGANIC !!
+
+                        The Rustic Organic Navel Oranges  from Sicily is grown following the organic farming method. 
+                        The organic allows to obtain very sweet and fragrant citrus completely natural. 
+                        Organic citrus like these allows recipes (with oranges), very tasty and nutritious. 
+                        The colors of organic citrus are more 'alive and the properties' are beneficial to the body. 
+                        The casing of the clove is thin, with the characteristic navel. 
+                        Characteristics of biological Navel are: blonde pulp, Juicy and without seeds, 
+                        a pleasant taste with low acidity. 
+                        They are exceptional for the table, but nobody prevents us from doing a good juice!
+
+                      </p>
+
+                      <br>
+                      <br>
+                      <p> Gala apple is very popular with those with a sweet tooth, the Gala's distinctive sweetness and low acid content.  These characteristics make it the perfect snack and the ideal ingredient for cakes, desserts and creative dishes.</p>
+    
+                      <p>
+                        Shipping & Delivery
+                        Delivery service is currently available to Hong Kong Island, 
+                        Kowloon, New Territories, Discovery Bay, Ma Wan, Tung Chung 
+                        and Hong Kong International Airport.
+
+                        All orders above $600 qualify for free delivery. 
+                        You will be charged for nothing more than your groceries.
+
+                        For orders under $600, a $100 delivery fee will be charged.
+
+                        There is no fee for picking, packing or service.
+
+
+                      </p>
+
+
+            </div>
+
+        </div>
+        
+
+        <div class="rcor1"> this is rc1</div>
+        <div class="rcor2"> this is rc2</div>
+
+
+    </div>
+
+    <div class="row">
+		<div class="column">
+			<h2>column 1</h2>
+            <img class="rcorners2" src="images/im6.jpg" > </style>
+		</div>
+
+		<div class="column">
+			<h2>column 2</h2>
+
+            <div class="box">
+    
+                <div> <h1> Price</h1></div>
+
+                <script>
+                    function submitValue() {
+                      // Get the value entered by the user
+                      var input = document.getElementById('value-input');
+                      var value = input.value;
+                      
+                      // Store the value in localStorage
+                      localStorage.setItem('Apple', value);
+                      
+                      // Redirect to the second page
+                      window.location.href = 'Cart.html';
+                    }
+                  </script>
+                <br>
+                  <h3> Today Special Price: HK$ 10 each</h3>
+
+                <br>
+                  <h5>Enter number of Apple:</h5>
+                  <input type="text" id="value-input">
+                  <!-- <input type="number" id="value-input"> -->
+                   <br>
+                   <br>
+                  <button onclick="submitValue()">Add to shopping cart</button>
+                  <br>
+                  <br>
+            
+
+                  <p>
+                    FRESH ORGANIC !!
+
+                    The Rustic Organic Navel Oranges  from Sicily is grown following the organic farming method. 
+                    The organic allows to obtain very sweet and fragrant citrus completely natural. 
+                    Organic citrus like these allows recipes (with oranges), very tasty and nutritious. 
+                    The colors of organic citrus are more 'alive and the properties' are beneficial to the body. 
+                    The casing of the clove is thin, with the characteristic navel. 
+                    Characteristics of biological Navel are: blonde pulp, Juicy and without seeds, 
+                    a pleasant taste with low acidity. 
+                    They are exceptional for the table, but nobody prevents us from doing a good juice!
+
+                  </p>
+
+                  <br>
+                  <br>
+                  <p> Gala apple is very popular with those with a sweet tooth, the Gala's distinctive sweetness and low acid content.  These characteristics make it the perfect snack and the ideal ingredient for cakes, desserts and creative dishes.</p>
+
+                  <p>
+                    Shipping & Delivery
+                    Delivery service is currently available to Hong Kong Island, 
+                    Kowloon, New Territories, Discovery Bay, Ma Wan, Tung Chung 
+                    and Hong Kong International Airport.
+
+                    All orders above $600 qualify for free delivery. 
+                    You will be charged for nothing more than your groceries.
+
+                    For orders under $600, a $100 delivery fee will be charged.
+
+                    There is no fee for picking, packing or service.
+
+
+                  </p>
+
+
+        </div>
+
+
+		</div>
+
+		<div class="column" >
+			<h2>column 3</h2>
+            <img class="rcorners2" src="images/im11.jpg" > </style>
+		</div>
+		<div class="column" >
+			<h2>column 4</h2>
+            <img class="rcorners2" src="images/im5.jpg" > </style>
+		</div>
+		<div class="column">
+			<h2>column 5</h2>
+		</div>
+
+        <br>
+        <br>
+
+        <h4>Responsive Columns</h4>
+        <div class="row">
+            <div class="col-sm-3" style="background-color: green;">.col-sm-3</div>
+            <div class="col-sm-3" style="background-color: pink;">.col-sm-3</div>
+            <div class="col-sm-3" style="background-color: blue;">.col-sm-3</div>
+            <div class="col-sm-3" style="background-color: brown">.col-sm-3</div>
+        </div>
+        <h4>Equal width columns</h4>
+        <div class="row">
+            <div class="col">.col</div>
+            <div class="col">.col</div>
+            <div class="col">.col</div>
+        </div>
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+</body>
+</html>
